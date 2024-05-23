@@ -1,0 +1,74 @@
+:host(){
+    --dark-blue:#5b3a26;
+    --light-white:#cde3bd;
+    --light-blue:#4f7df9;
+    --light-pink:#5b3a26;
+    --dull-blue:#ab8456;   
+    --size-16:16px;
+    --size-14:14px;
+    --size-12:12px;
+  }
+
+  .app{
+    min-height: 100vh;
+    background-image: url(/sfsites/c/resource/BmiBackground);
+    background-size: cover;
+  }
+  
+  .box{
+    max-width: 520px;
+    text-align: center;
+    margin: auto;
+    background: var(--dark-blue);
+    color: var(--light-white);
+    padding: var(--size-16);
+    border-radius: 38px;
+  }
+  h1{
+    font-size: 36px;
+    padding: 20px 0;
+    font-weight: bold;
+  }
+  .info-wrapper{
+    background: var(--dull-blue);
+    padding: var(--size-16);
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+    font-size: var(--size-14);
+    text-align: center;
+  }
+  h2{
+    font-size: 26px;
+    color: var(--light-pink);
+  }
+  label{
+    color: var(--light-white);
+  }
+
+button{
+  color: #fff;
+  padding: 15px 25px;
+  background-color:var(--light-white);
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+.slds-button_stretch {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50%;
+}
+form{
+  padding-bottom:15px;
+}
