@@ -2,19 +2,19 @@
    <div class="app">
        <div class="box">
          <h1>BMI Calculator</h1>
-         <form>
+         <form onsubmit={submitHandler}>
             <div class="slds-form-element">
-               <label class="slds-form-element__label" for="text-input-id-46">
+               <label class="slds-form-element__label" for="text-input-weight">
                <abbr class="slds-required" title="required">* </abbr>Weight (Kg)</label>
                <div class="slds-form-element__control">
-               <input type="number" id="text-input-id-46" min="0" placeholder="What's your weight? …" required="" class="slds-input" />
+               <input type="number" id="text-input-weight" min="0" placeholder="What's your weight? …" required="" class="slds-input" name="weight" value={weight} onchange={inputHandler}/>
                </div>
                </div>
                <div class="slds-form-element">
-                  <label class="slds-form-element__label" for="text-input-id-46">
+                  <label class="slds-form-element__label" for="text-input-height">
                   <abbr class="slds-required" title="required">* </abbr>Height (Cm)</label>
                   <div class="slds-form-element__control">
-                  <input type="number" id="text-input-id-47" min="0" placeholder="What's your Height? …" required="" class="slds-input" />
+                  <input type="number" id="text-input-height" min="0" placeholder="What's your Height? …" required="" class="slds-input" name="height" value={height} onchange={inputHandler}/>
                   </div>
                   </div>
                  
